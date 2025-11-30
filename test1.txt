@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class dev{
+    void sum(int a,int b){
+        int c=a+b;
+        System.out.println("the sum of num is:"+c);
+    }
+    void multifly(int a,int b){
+            System.out.println("the multifly of two num is:"+a*b);
+        }
+        void div(int a,int b){
+            System.out.println( "the division of two num is:"+a%b);
+        }
+    public static void main(String args[])
+    {
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        dev ob=new dev();
+        ob.sum(a,b);
+        ob.multifly(a,b);
+        ob.div(a,b);
+     }}
+    
